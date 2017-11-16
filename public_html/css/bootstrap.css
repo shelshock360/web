@@ -92,8 +92,7 @@ body {
   font-size: 1rem;
   font-weight: normal;
   line-height: 1.5;
-  color: #212529;
-  background-color: #fff;
+  background-color: #E0EEEE;
 }
 
 [tabindex="-1"]:focus {
@@ -109,6 +108,7 @@ hr {
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: .5rem;
+  
 }
 
 p {
@@ -234,6 +234,7 @@ figure {
 img {
   vertical-align: middle;
   border-style: none;
+  
 }
 
 svg:not(:root) {
@@ -635,6 +636,11 @@ pre code {
   padding-right: 15px;
   padding-left: 15px;
   width: 100%;
+}
+
+#rodape{
+    background-color: pink;
+    
 }
 
 .row {

@@ -1,0 +1,49 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 14/11/2017, 22:18:42
+    Author     : ASUS
+*/
+
+.card{
+    margin: 10px;
+}
+
+#rodape{
+    background-color: #00BFFF;
+    padding:30px;
+    
+   
+}
+
+.Botao{
+    color:white;
+    background-color:blue;
+    padding-bottom: 10px;
+    border:none;
+    
+}
+
+.cadastro{
+    width:60%;
+    min-width: 175px;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-left-color: green;
+    
+}
+
+.login_cadastro{
+    width:40%;
+    border-left-color:blue;
+    border-right-color: blue;
+        
+}
+
+
+
+
+
