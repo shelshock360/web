@@ -1,0 +1,300 @@
+<html>
+    <head>
+        <title>Loja Baratão</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- importar a biblioteca do jquery -->
+
+        <script src="js/jquery-3.2.1.js"></script>
+
+        <script src="js/popper.js"></script>
+
+        <script src="js/bootstrap.js"></script>
+
+        <link rel="stylesheet" href="css/bootstrap.css"/>
+
+        <link rel="stylesheet" href="css/meuestilo.css"/>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+
+
+    </head>
+    <body>
+
+        <!-- tudo que for fluir oculpa a largura toda da pagina --->
+        <div class="container">
+            <!-- esta  a linha do topo,do menu horizontal-->
+
+            <div class="row">
+
+                <div class="col"> 
+                    <!-- fazendo o menu -->
+
+
+                    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                        <a class="navbar-brand" href="#">Loja Baratão</a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="index.html">Pagina inicial <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="criar conta.html">Criar conta</a>
+
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Ajuda
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="como comprar.html">Como comprar</a>
+                                        <a class="dropdown-item" href="reclamar.html">Reclamar</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="como se cadastrar.html">Como se cadastrar</a>
+                                    </div>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link disabled" href="quem somos.html">Quem somos</a>
+                                </li>
+                            </ul>
+                            <form class="form-inline my-2 my-lg-0">
+                                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                            </form>
+                        </div>
+                    </nav>
+                </div>
+
+            </div>
+
+            <br/>
+            <div class="row">
+
+                <div class="col-3">
+
+
+
+                    <div class="informatica">
+                        <a href="#" class="list-group-item list-group-item-action active">
+                            Informatica
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action">Hardware</a>
+                        <a href="#" class="list-group-item list-group-item-action">Placas de video</a>
+                        <a href="#" class="list-group-item list-group-item-action">nooteboks</a>
+                        <a href="#" class="list-group-item list-group-item-action">Computadores</a>
+                    </div>
+
+                    <div class="eletrodomesticos">
+                        <a href="#" class="list-group-item list-group-item-action active">
+                            eletrodomesticos
+
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action">Microondas</a>
+                        <a href="#" class="list-group-item list-group-item-action">Televisores</a>
+                        <a href="#" class="list-group-item list-group-item-action">Geladeiras</a>
+                        <a href="#" class="list-group-item list-group-item-action">Lavadouras</a>
+                    </div>
+
+                    <div class="games">
+                        <a href="#" class="list-group-item list-group-item-action active">
+                            games
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action">Pc</a>
+                        <a href="#" class="list-group-item list-group-item-action">Xbox360</a>
+                        <a href="#" class="list-group-item list-group-item-action">PS3</a>
+                        <a href="#" class="list-group-item list-group-item-action">PS4</a>
+                        <a href="#" class="list-group-item list-group-item-action">XboxOne</a>
+                    </div>
+
+
+                    <div class="diversos">
+                        <a href="#" class="list-group-item list-group-item-action active">
+                            Diversos
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action">Pentes pra cabelo</a>
+                        <a href="#" class="list-group-item list-group-item-action">Relogios de parede</a>
+                        <a href="#" class="list-group-item list-group-item-action">Copos plasticos</a>
+                        <a href="#" class="list-group-item list-group-item-action">Panelas</a>
+                        <a href="#" class="list-group-item list-group-item-action">Taças de vidro</a>
+                    </div>
+
+
+                </div>
+
+                <div class="col-9">
+
+
+                    <h4>
+                        <img src="imagens/carrinho.png" height="25" width="25">
+                        BEM VINDO AO BARATÃO
+                    </h4>
+
+                    <br/>
+
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">Produto</th>
+                                <th scope="col">Quantidade</th>
+                                <th scope="col">valor a vista</th>
+                                <th scope="col">valor a prazo</th>
+                                <th scope="col">valor total</th>
+                                <th scope="col">finalizar compra</th>
+
+                            </tr>
+                        </thead>
+
+                        <tbody>
+
+                            <!--Produto 1-->
+
+                            <tr>
+                                <td>
+                                    <img src="imagens/tv lg 32 polegadas full hd.jpg" height="50" width="50">
+                                    tv lg 32 polegadas full hd
+                                </td>
+                                <td>   <select name="quantidade">
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        <option value="6">6</option>
+                                        <option value="7">7</option>
+                                        <option value="8">8</option>
+                                        <option value="9">9</option>
+                                        <option value="10">10</option>
+
+                                    </select></td>
+                                <td>1200,00</td>
+                                <td>1400,00 </td>
+                                <td>  <input class="frete" type="submit" value="calcular"/></td>
+
+                                <td>  <input class="frete" type="submit" value="Finalizar "/></td>
+                            </tr>
+
+
+
+
+
+                        </tbody>
+                    </table>
+
+                    <h2>Veja tambem nossos outros produtos</h2>
+                    
+                    
+       
+                    
+                            <div class="card float-left" style="width: 20rem;">
+                        <img class="card-img-top" src="imagens/pes 2017.jpeg " height="200" width="300">
+
+                        <div class="card-body pc-gamer">
+                            <h4 class="card-title">jogo pes 2017</h4>
+                            <p class="card-text">
+                                Preço vista 100,00<br/>
+                                Total a prazo 140,00
+                            </p>
+
+                            <a href="#" class="btn btn-primary">Comprar</a>
+                        </div> 
+
+
+                    </div>
+                    
+                     
+                        
+                          <div class="card float-left" style="width: 20rem;">
+                        <img class="card-img-top" src="imagens/monitor acer.jpeg" height="200" width="300">
+
+                        <div class="card-body pc-gamer">
+                            <h4 class="card-title">monitor acer</h4>
+                            <p class="card-text">
+                                Preço vista 140,00<br/>
+                                Total a prazo 200,00
+                            </p>
+
+                            <a href="#" class="btn btn-primary">Comprar</a>
+                            
+                        </div> 
+                        
+                      
+
+
+                    </div>
+
+                </div>
+            </div>
+
+            <br/>
+            <!-- linha de rodape -->
+
+
+            <div class="row text-center">
+
+
+
+                <div class="col">
+                    <h4>Minha conta </h4>
+                    <form action="" method="GET">
+                        <label>Informe seu nome de usuario</label>
+                        <br/>
+                        <input class="login_cadastro" name="nome" type="text">
+                        <br/>
+
+                        <label>Senha</label>
+                        <br/>
+                        <input class="login_cadastro" name="senha" type="password">
+
+
+                    </form>
+
+
+                    <a href="#" class = "btn btn primary" >login</a>
+                </div>
+
+            </div>
+
+
+        </div>
+        <div id="rodape">
+            <div class="row text-center">
+                <div class="col">
+                    <h4> ATENDIMENTO</h4>
+
+                    <div class="dados_rodape"> 
+                        <i class="fa fa-envelope-open" aria-hidden="true"></i>
+                        email:joaom4936@gmail.com
+                    </div>
+                    <div class="dados_rodape">
+                        <i class="fa fa-phone-square" aria-hidden="true"></i>
+                        fone:3412465 
+                    </div>
+                    <div class="dados_rodape">
+                        <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                        Loja Baratão oficial
+                    </div>
+
+
+
+
+
+
+
+
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </body>
+</html>
